@@ -1,0 +1,26 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 34%, rgba(212,55,196,1) 100%);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 250px;
+    justify-content: center;
+}
+.me{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    justify-content: center;
+}
+.what{
+    float: right;
+    color: rgba(212,55,196,1);
+}
