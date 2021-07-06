@@ -1,0 +1,38 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(189, 185, 186)4%, rgba(212,55,196,1) 100%);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.head{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.project{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 12px;
+    width: 300px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+    box-shadow : 0 0 5px white;
+}
+a:hover{
+    color: black;
+    background: white;
+}
